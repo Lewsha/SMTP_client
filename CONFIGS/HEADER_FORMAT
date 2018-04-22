@@ -1,0 +1,11 @@
+From: <{mail_from}>
+To: <{mail_to}>
+Subject: {mail_subject}
+Content-Type: multipart/mixed; boundary="{boundary}"
+
+--{boundary}
+Content-Type: text/plain; charset=utf-8
+Content-transfer-encoding: base64
+
+{mail_body_base64}
+

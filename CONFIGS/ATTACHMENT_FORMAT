@@ -1,0 +1,7 @@
+--{boundary}
+Content-Disposition: attachment; filename="{file_name}"
+Content-Type: {file_type}
+Content-Transfer-Encoding: base64
+
+{file_content_base64}
+
